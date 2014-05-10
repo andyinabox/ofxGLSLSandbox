@@ -38,7 +38,7 @@ vec3 getSurfacePosition(vec2 coord) {
         acc = 1.0 - 1.0/acc;
         acc *= Sphere_radius;
         
-        acc = (Sphere_radius * acc)/(Sphere_radius*0.30 + acc);
+        acc = (Sphere_radius * acc)/(Sphere_radius*0.70 + acc);
         acc = (Sphere_radius * acc)/(Sphere_radius*0.30 + acc);
         acc = (Sphere_radius * acc)/(Sphere_radius*0.20 + acc);
         
